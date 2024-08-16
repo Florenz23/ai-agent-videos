@@ -1,0 +1,2 @@
+KW      Montag  Dienstag        Mittwoch        Donnerstag      Freitag Samstag Sonntag			
+33      Chili   Tüte    Wurstgulasch    Gnocci  Tuna    Curry   Curry			

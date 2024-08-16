@@ -1,0 +1,29 @@
+Name	label	shopping_ingredients
+Chili	for_sat_sun_mon	schmand, 4x kidney bohnen, 1x passierte tomaten, wurzeln, mais, 2x gewürztüte
+Curry	for_sat_sun_mon	2x gewürztüte, zuchini, 3x tomaten, 2x zwiebeln, wurzeln, paprika
+Tomatensuppe	for_sat_sun_mon	8x tomaten, 1x gewürztüte, zwiebeln
+Kürbissuppe	for_sat_sun_mon	1x kürbis, 1x sahne, 1x brühwürfel, 3x kartofflen
+Bolognese	for_sat_sun_mon	4x tomaten, 2x tüte, 1x sahen, 1x spaghetti, 1x passierte tomaten, 1x reibekäse, wurzeln, 1x Hackfleisch
+Linsensuppe	for_sat_sun_mon	packung linsen, suppengemüse, 2x zwiebeln, 6x würstchen
+Nudelsalat	for_sat_sun_mon	1x Pirelli Nudeln, 1x Salatdressing, Mais, 6x Würstchen, 2x Tomaten, 1x Gurken, 
+Lasagne	for_sat_sun_mon	1x Box Nudelplatten, 3x Paprika, 2x Zwiebeln, 2x Tomaten, 2x Gewürztüten, 1x Hackfleisch, 1x Creme Fraiche
+Auflauf	for_sat_sun_mon	1x Sahne, 4x Paprika, 2x Zwiebeln, 2x Kochschinken, 8x Kartoffeln/ 1x Nudeln
+Stroganov + Vegetables	for_sat_sun_mon	1x Pute, 1x Creme Fraiche, 1x saure sahne, 3x paprika, senf, 2x zwiebeln
+Cremesuppe	for_sat_sun_mon	1x hack, 6x lauchstangen, 2x zwiebeln, 1x sahne schmelzkäse / frischkäse, 1x kräuter schmelzkäse / frischkäse
+Tuna	always_frieday	1x tuna, 1x saure sahne, 1x spaghetti
+Wurstgulasch	-	1x schlagsahne, 6x würstchen, 1x Eiernudeln
+Gnocchi	-	1x Gnochi, 1x Frischkäse, 1x Spinat
+Tüte	-	1x Tüte
+Frühlingsrollen	-	1x Frühlingsrolle
+Pelmini	-	1x Pelmini
+Cans	-	2x cans
+Kartoffeln, Eier, Quark, Gemüse	-	1x quark, 1x gemüse, 4x eier
+Chicken mit Quark	-	1x chicken nuggets, 1x quark
+Würstchen mit Sauerkraut	for_two_days	1x Sauerkraut, 8x Kartoffeln, 6x Würstchen
+Fisch 	-	1x sauhre sahne, 8x Kartoffeln, 1x Fisch, 1x Tafelmehrrettich
+Bratwurst Kartoffel Quark	for_two_days	6x Bratwurst, 2x Quark, 8x Kartoffeln
+Sushi	-	1x Sushi
+Schnitzel + Püree	-	1x Schnitzel, 6x Kartoffeln
+Nudeln mit Gemüse und Chickenwurst	-	1x Spaghetti, 1x Gemüse, 1x Chickenwurst
+Fischstäbchen	-	1x Fischstäbchen, 1x Gurke
+Bami Gorgeng	-	1x Bami Goreng
