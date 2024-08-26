@@ -1,0 +1,183 @@
+## Prompts
+
+You are an experienced React Native developer tasked with creating a habit tracker app using React Native and Expo. Your first task is to create the overall UI structure in index.tsx with placeholders for CalendarView and HabitView.
+
+I will provide you with a concept for the habit tracker app. Your job is to carefully analyze this concept and then create the code for index.tsx based on the requirements.
+
+Here's the concept for the habit tracker app:
+<concept> {{CONCEPT}} </concept>
+
+Please follow these steps:
+
+1. Carefully read and analyze the provided concept.
+2. Identify the key components and features that need to be included in the overall UI structure.
+3. Create the code for index.tsx, which should include: a. Necessary imports (React, React Native components, etc.) b. A main App component c. Placeholders for CalendarView and HabitView d. Basic styling to arrange the components
+
+Requirements for index.tsx:
+
+- Use functional components and hooks
+- Import necessary components from react-native
+- Create a placeholder CalendarView component
+- Create a placeholder HabitView component
+- Implement a basic layout that includes both CalendarView and HabitView
+- Use StyleSheet to define styles for the components
+
+Remember to focus only on creating the overall UI structure in index.tsx with placeholders for CalendarView and HabitView. Do not implement the full functionality of these components at this stage.
+
+After creating the index.tsx file, please provide clear step-by-step instructions for setting up Expo and previewing the app on my {{phone}}. Include details on:
+
+- Ensuring Node.js is installed as a prerequisite
+- Using the command `npx create-expo-app@latest` to install Expo and create the project
+- Configuring the Expo project
+- Running the app on the development server
+- Installing and using the Expo Go app on my {{phone}}
+- Connecting the {{phone}} to view and test the app
+- Any specific considerations for my {{phone}} model
+
+Make sure the instructions begin with checking for Node.js installation and use the specified `npx create-expo-app@latest` command. The instructions should be concise, easy to follow, and tailored to my {{phone}} if there are any model-specific steps.
+
+Phone:
+iphone
+
+Concept:
+
+## Habit Tracker App Concept
+
+### Project Structure
+
+- index.tsx: Entry point of the app (in the root directory)
+- @/components/views/CalendarView.js: Calendar strip component
+- @/components/views/HabitView.js: Habit list component
+- @/components/views/EditView.js: Habit editing component
+- defaultData.json: Contains initial demo data for the app
+
+### Main Components
+
+- CalendarView: Display the days of the week at the top
+- HabitView: Show individual habit items below the calendar
+- EditView: Modal view for editing habit details
+
+### Data Structure
+
+- Store habits as an array of objects: [{id, name, description, isDone}]
+- Store habit logs as an object with dates as keys and habit completion status as values
+
+### State Management
+
+- Use React's useState in index.tsx to manage the habit list, habit logs, and selected date
+- Pass necessary data and functions as props to child components
+
+### User Interactions
+
+- Add new habits via a simple modal or form in HabitView
+- Edit existing habits through the EditView modal
+- Toggle habit completion status in HabitView
+- Tap on a day in CalendarView to focus on that day and display corresponding habit states
+
+### Styling
+
+- Include styling code within each component file (CalendarView.js, HabitView.js, EditView.js)
+- Use Expo Elements for consistent, attractive UI components
+- Implement a light theme with pastel blues for habit backgrounds
+- Use distinct visual indicators for completed and uncompleted habits (e.g., checkmarks, color changes)
+
+### Data Persistence
+
+- Use AsyncStorage to save and retrieve the habit list and habit logs
+
+### Implementation Details
+
+- index.tsx:
+    - Manages state and data flow
+    - Renders CalendarView and HabitView
+    - Initializes app with demo data if no existing data is found
+    - Manages selected date state
+- components/views/CalendarView.js:
+    - Horizontal scrollable view for days of the week
+    - Highlight current day and selected day
+    - Allows navigation to previous days
+    - Includes its own styling code
+- components/views/HabitView.js:
+    - Renders list of habits
+    - Displays habit completion status for the selected day
+    - Includes "Add Habit" functionality
+    - Allows toggling habit completion status with clear visual feedback
+    - Provides an edit button for each habit
+    - Includes its own styling code
+- components/views/EditView.js:
+    - Modal view for editing habit details
+    - Allows changing habit name and description
+    - Includes its own styling code
+
+### Key Expo Features to Use
+
+- Expo Elements for UI components
+- Expo Vector Icons for simple icons (e.g., edit button, completion status)
+- AsyncStorage for data persistence
+
+### Demo Data and Functionality
+
+- Include a defaultData.json file with:
+    - 3 predefined habits: "Drink water", "Exercise", and "Read"
+    - Habit logs for the previous three days
+- On first launch, load the demo data into AsyncStorage
+- Allow users to interact with the demo data immediately:
+    - View predefined habits
+    - See completion status for the past three days
+    - Add new habits
+    - Edit existing habits
+    - Toggle habit completion status for any day
+- Provide a visual distinction between demo data and user-added data (e.g., different background color)
+
+### Habit Editing and Completion
+
+- Each habit in HabitView has an edit button that opens the EditView modal
+- EditView allows users to modify the habit name and description and delete it
+- In HabitView, each habit has a clear visual indicator of its completion status (e.g., checkbox, toggle switch)
+- Tapping on the completion indicator toggles the habit's status for the selected day
+- Use distinct visual styles for completed and uncompleted habits (e.g., different colors, opacity)
+
+### Calendar Navigation and Historical Data
+
+- Users can navigate to previous days using the CalendarView
+- When a past date is selected, HabitView updates to show the habit completion status for that specific day
+- Habits in HabitView reflect the correct completion status based on the selected date
+
+### Demo Data to use
+
+{
+"habits": [
+{
+"id": "1",
+"name": "Drink water",
+"description": "Drink 8 glasses of water daily"
+},
+{
+"id": "2",
+"name": "Exercise",
+"description": "30 minutes of physical activity"
+},
+{
+"id": "3",
+"name": "Read",
+"description": "Read for 20 minutes before bed"
+}
+],
+"habitLogs": {
+"2024-08-23": {
+"1": true,
+"2": false,
+"3": true
+},
+"2024-08-24": {
+"1": true,
+"2": true,
+"3": false
+},
+"2024-08-25": {
+"1": false,
+"2": true,
+"3": true
+}
+}
+}
