@@ -1,0 +1,5 @@
+Framework,Cost,Total Tokens,Lines of Code (Excluding Tool),Lines of Code (Tool Usage),Execution Time (s),Ease of Use,Installation Complexity
+AutoGen,0.00064075,3089,107,56,9.24,Easy,Low
+CrewAI,0.000684,5829,124,86,23.5,Medium,Medium
+LangGraph,0.00041935,1128.67,81,60,15.43,Hard,High
+Agent Zero,0.03773053,94326,0,0,94,Easy,High

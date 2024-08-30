@@ -1,0 +1,12 @@
+langraph
+- This run's cost $0.00041935
+- total_tokens=1,128.67
+- lines of code beside tool: 81
+- lines of code for tool usage:  60
+- execution time: (10.15s + 13.88s + 22.26s) / 3 = 15.43s average
+- libraries to install to make it work : yfinance, langgraph, langchain-openai
+- tricky parts / settings to make it work /deeper knowledge and research required ( trying out and testing many tutorials and examples, adjust tutoral to needs, multi agent systems not self explaining )
+- what is nice: well documented with many examples and tutorials
+- what is not so nice: many tutorials dont work, maybe outdated
+- ease of use : hard
+- summary: langgraph is a very powerful tool, good programming skills required 

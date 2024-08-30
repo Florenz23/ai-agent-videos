@@ -1,0 +1,37 @@
+        description:
+        first get the ticker_symbol from ticker_list.txt
+        then for the  {ticker_symbol} fetch the data using yfinance pip library
+            use the following kpis
+             Ticker Kpis:
+                - Ticker Symbol
+                - Company Name
+                - Current Price
+                - 52-Week High
+                - 52-Week Low
+                - Market Cap
+                - P/E Ratio
+                - P/B Ratio
+                - Debt-to-Equity Ratio
+                - Current Ratio
+                - Dividend Yield (%)
+                - 5-Year Revenue Growth Rate (%)
+                - Free Cash Flow
+                - Profit Margin
+                - Operating Margin
+                - Earnings Growth
+                - Revenue Growth
+                - Analyst Target Price
+                - Beta
+        then get warren buffett's investment principles by opening
+        the file warren_buffet_investement_principles.txt
+        then you provide a comprehensive analysis of the ticker
+        write short and concise the pros why warren buffett would invest in
+        this company and the cons why he wouldn't
+        then summarize the company evaluation and provide a recommendation
+        then you give a warren buffet buy recomendation from 0 to 10 (10 is best)
+        finally write the result to the file stock_analysis.txt
+        expected_output:
+        - Pros why Warren Buffett would invest in this company
+        - Cons why Warren Buffett wouldn't invest in this company
+        - Company Evaluation Summary
+        - Warren Buffet Buy Recommendation

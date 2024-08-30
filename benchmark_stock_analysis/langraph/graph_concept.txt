@@ -1,0 +1,7 @@
+
+I want to do the following: 
+1. user enters a ticker symbol
+2. get ticker information from yahoo finance 
+3. get warren buffet investement principles from a file
+4. create a stock investement analyse based on the investement principles and stock data
+5. save the output data in a file 

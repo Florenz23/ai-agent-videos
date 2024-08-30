@@ -1,0 +1,12 @@
+autogen
+- This run's cost $0.00064075 --> 0,06 cents
+- total_tokens= 3089
+- lines of code beside tool: 107
+- lines of code for tool usage:  56
+- execution time: (9.6s + 9.2s + 8.7s) / 3 = 9.24 seconds average
+- libraries to install to make it work : yfinance, pyautogen==0.2.25
+- tricky parts / settings to make it work /deeper knowledge and research required ( none )
+- what is nice: well documented with many examples and tutorials, video tutorial
+- what is not so nice: its from microsoft
+- ease of use : easy
+- summary: powerful but not extremely powerful, easy to use with medium programming skills

@@ -1,0 +1,12 @@
+Agent Zero
+- This run's cost $0.03773053 --> 3,8 cents
+- total_tokens= 94326
+- lines of code beside tool: 0
+- lines of code for tool usage:  0
+- execution time: (100s + 90s + 92s) / 3 = 94 seconds average
+- libraries to install to make it work : cloning repo and install requirements, and docker
+- tricky parts / settings to make it work /deeper knowledge and research required : work_dir usage
+- what is nice: easy to use, debugs itself , saves you lots of time
+- what is not so nice: not easy to install, need dockeer, costs are difficult to track, no good documentation, not scalable, results are not very consistent
+- ease of use : easy
+- summary: interesting approach but not really an agentic framework

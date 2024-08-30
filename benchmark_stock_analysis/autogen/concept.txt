@@ -1,0 +1,7 @@
+AI Agent Framework Benchmark Serie (3/5)
+
+AI Stock Analyst (autogen)
+
+- get ticker information from yfinance api 
+- get warren buffet principles from a file, then analyse the stock
+- write the results to a file

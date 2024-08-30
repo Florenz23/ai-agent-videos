@@ -1,0 +1,9 @@
+crewai
+- This run's cost $0.000684
+- total_tokens=5829 prompt_tokens=4561 completion_tokens=1268 successful_requests=5
+- lines of code beside tool: 124
+- lines of code for tool usage:  86
+- “tricky” settings to make it work /deeper knowledge and research required ( output_file, delegation_false, using mini, custom tool usage a little tricky, docs not that clear )
+- libraries to install to make it work : yfinance, crewai, crewai[tools], langchain-openai
+- execution time: 20, 26, 25 —> 23,5 seconds
+- ease of use : medium
