@@ -1,0 +1,5 @@
+demo_img_path = "videos/webDev/model_page.png"
+recent_state_img_path = "videos/webDev/recent_screenshot.png"
+html_code_path="videos/webDev/recent_state.html"
+ini_description_path="videos/webDev/ini_description.txt"
+recent_state_analysis_path="videos/webDev/recent_state_analysis.txt"

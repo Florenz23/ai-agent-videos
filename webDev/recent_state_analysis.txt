@@ -1,0 +1,14 @@
+1. **Background and Color Scheme**
+   - Change the overall background color to a dark theme. Ensure text and icons have sufficient contrast to remain visible.
+
+2. **Logo Design**
+   - Replace the logo icon with a more minimalistic version. Center it prominently at the top of the page.
+
+3. **Icon and Button Layout**
+   - Replace current buttons with cards that contain both an icon and text underneath. Arrange four cards in a horizontal layout, evenly spaced and centered on the screen.
+
+4. **Typography and Text Alignment**
+   - Update the font style and size to be more modern and consistent with the minimalistic theme. Ensure all text is centered within its corresponding button or card.
+
+5. **Footer Design**
+   - Redesign the footer to remove the horizontal rule and reduce its visual prominence. Ensure it has a subtle presence that doesn’t distract from the main content. Adjust the spacing to be minimal and consistent with the dark theme.

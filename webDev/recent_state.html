@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatGPT Interface</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background-color: #202123;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            margin-top: 50px;
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 50%;
+            margin-bottom: 40px;
+        }
+
+        .interactive-boxes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            padding: 0 20px;
+        }
+
+        .box {
+            background-color: #1E1E1E;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .box:hover {
+            background-color: #2C2C2C;
+        }
+
+        .box:nth-child(1)::before {
+            content: "🔵";
+        }
+
+        .box:nth-child(2)::before {
+            content: "🟣";
+        }
+
+        .box:nth-child(3)::before {
+            content: "🟡";
+        }
+
+        .box:nth-child(4)::before {
+            content: "🔵";
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .input-container {
+            margin: 20px auto;
+            width: 90%;
+            max-width: 800px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #3E3E3E;
+            background-color: #1E1E1E;
+            color: white;
+            font-size: 16px;
+        }
+
+        .disclaimer {
+            color: #8E8E8E;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo"></div>
+    
+    <div class="interactive-boxes">
+        <div class="box">Zeichne mein Haustier als Zeichentrickfigur</div>
+        <div class="box">Wähle ein fotogenes Outfit aus</div>
+        <div class="box">Neue Freunde nach dem Umzug</div>
+        <div class="box">Frage mich nach Hauptstädten</div>
+    </div>
+
+    <footer>
+        <div class="input-container">
+            <input type="text" placeholder="Sende eine Nachricht an ChatGPT">
+        </div>
+        <div class="disclaimer">
+            ChatGPT kann Fehler machen. Überprüfe wichtige Informationen.
+        </div>
+    </footer>
+</body>
+</html>
