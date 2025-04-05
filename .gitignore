@@ -48,3 +48,12 @@ docs/_build/
 # Dependencies
 pip-log.txt
 pip-delete-this-directory.txt
+
+# add .DS_Store on any location in the project  
+**/.DS_Store
+
+
+
+# add .venv to ignore
+.venv/
+
